@@ -1,0 +1,17 @@
+<library path="lib/libmimic_controllers">
+  <class name="robot_control/MimicController" type="robot_control::MimicController" base_class_type="controller_interface::ControllerBase">
+		<description>
+			mimic dynamics controller for standard ROS control
+		</description>
+	</class>
+  <class name="robot_control/MimicEffortController" type="robot_control::MimicEffortController" base_class_type="controller_interface::ControllerBase">
+		<description>
+			mimic dynamics controller for standard ROS control
+		</description>
+	</class>
+  <class name="robot_control/TwoFingersController" type="robot_control::TwoFingersController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      two finger controller, try to keep the finger in the same position
+    </description>
+  </class>
+</library>
